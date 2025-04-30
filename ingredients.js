@@ -30,7 +30,8 @@ addIngredient("chuck",{
     scale:1.0,
     keywords:"beef,cow,meat,steak",
     dishName:"beef_chuck",
-    adj:"chuck"
+    adj:"chuck",
+    hidden:false
   });
 
 addIngredient("brisket",{
@@ -41,5 +42,117 @@ addIngredient("brisket",{
     scale:1.0,
     keywords:"beef,cow,meat,steak",
     dishName:"briskets",
-    adj:"brisket"
+    adj:"brisket",
+    hidden:false
+  });
+
+addIngredient("beef_ribs",{
+    type:"beef",
+    shape:"hook",
+    color:"#9A2020",
+    group:"generic",
+    scale:1.0,
+    keywords:"beef,cow,meat,ribs",
+    dishName:"beef_ribs",
+    cookColor:"#341111",
+    adj:"beef_ribs",
+    hidden:false
+  });
+
+addIngredient("pork_ribs",{
+    type:"pork",
+    shape:"hook",
+    stackShape:"hook",
+    group:"generic",
+    scale:1.0,
+    keywords:"pork,pig,meat,ribs",
+    dishName:"pork_ribs",
+    cookColor:"#341111",
+    adj:"pork_ribs",
+    hidden:false
+  });
+
+addIngredient("lamb_ribs",{
+    type:"mutton",
+    shape:"hook",
+    stackShape:"hook",
+    group:"generic",
+    scale:1.0,
+    keywords:"lamb,sheep,meat,ribs",
+    dishName:"lamb_ribs",
+    cookColor:"#341111",
+    adj:"lamb_ribs",
+    hidden:false
+  });
+
+addIngredient("venison_ribs",{
+    type:"venison",
+    shape:"hook",
+    stackShape:"hook",
+    group:"generic",
+    scale:1.0,
+    keywords:"deer,meat,ribs,venison",
+    dishName:"venison_ribs",
+    cookColor:"#341111",
+    adj:"venison_ribs",
+    hidden:false
+  });
+
+addIngredient("bone_marrow",{
+    type:"venison",
+    color:"#9A846B",
+    shape:"oval_thick_hole",
+    group:"generic",
+    scale:0.7,
+    keywords:"meat,bone,marrow,neck",
+    dishName:"bone_marrow",
+    cookColor:"#6A543A",
+    adj:"bone_marrow",
+    hidden:false,
+    broken:"ground_bone_marrow"
+  });
+
+addIngredient("ground_bone_marrow",{
+    type:"ground_meat",
+    group:"generic",
+    scale:0.7,
+    dishName:"ground_bone_marrow",
+    cookColor:"#6A543A",
+    adj:"ground_bone_marrow",
+    hidden:true,
+    broken:"ground_bone_marrow"
+  });
+
+addIngredient("vegan_ribs",{
+    type:"meat",
+    shape:"hook",
+    group:"generic",
+    scale:1.0,
+    keywords:"vegan,vegetarian,ribs,meat,dumb",
+    dishName:"vegan_ribs",
+    cookColor:"#341111",
+    adj:"vegan_ribs",
+    hidden:false
+  });
+
+addIngredient("sirloin",{
+    type:"beef",
+    shape:"square_round_rough",
+    group:"generic",
+    scale:1.0,
+    keywords:"beef,cow,meat,steak",
+    dishName:"sirloin",
+    adj:"sirloin",
+    hidden:false
+  });
+
+addIngredient("tenderloin",{
+    type:"beef",
+    shape:"rod_wavy",
+    group:"generic",
+    scale:1.0,
+    keywords:"beef,cow,meat,steak",
+    dishName:"tenderloin",
+    adj:"tenderloin",
+    hidden:false
   });
