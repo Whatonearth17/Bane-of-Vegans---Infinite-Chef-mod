@@ -25,7 +25,6 @@ addIngredient("minced_dino_meat",{
   });
 
 addIngredient("urchin",{
-    type:"fish",
     group:"other",
     color:"#140112",
     shape:"spike_ball",
@@ -38,7 +37,6 @@ addIngredient("urchin",{
   });
 
 addIngredient("uni",{
-    type:"fish",
     group:"other",
     color:"#D6963B",
     shape:"bean",
