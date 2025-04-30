@@ -1,0 +1,51 @@
+addIngredient("dinosaur_meat",{
+    type:"meat",
+    color:"#4C121B",
+    shape:"ear",
+    group:"meat",
+    scale:2.0,
+    keywords:"primitive,dino,old,meat",
+    dishName:"dino_meat",
+    cookColor:"#3E1E1B",
+    adj:"dino_meat",
+    broken:"minced_dino_meat"
+  });
+
+addIngredient("minced_dino_meat",{
+    type:"beef",
+    group:"meat",
+    color:"#4C121B",
+    shape:"noodles",
+    scale:1.5,
+    dishName:"minced_dino_meat",
+    cookColor:"#3E1E1B",
+    hidden:true,
+    adj:"ground_dino_meat",
+    broken:"minced_dino_meat"
+  });
+
+addIngredient("sea_urchin",{
+    type:"fish",
+    group:"other",
+    color:"#140112",
+    shape:"spike_ball",
+    scale:1.0,
+    keywords:"urchin,ouch,spiky,sea",
+    dishName:"sea_urchin",
+    cookColor:"#140112",
+    adj:"urchin",
+    broken:"uni"
+  });
+
+addIngredient("uni",{
+    type:"fish",
+    group:"other",
+    color:"#D6963B",
+    shape:"bean",
+    scale:0.8,
+    keywords:"urchin,sea,uni",
+    dishName:"uni",
+    cookColor:"#BA6E34",
+    adj:"uni",
+    broken:"uni"
+  });
