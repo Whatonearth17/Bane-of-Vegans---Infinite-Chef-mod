@@ -12,7 +12,6 @@ addIngredient("dinosaur_meat",{
   });
 
 addIngredient("minced_dino_meat",{
-    type:"beef",
     group:"meat",
     color:"#4C121B",
     shape:"noodles",
@@ -24,26 +23,23 @@ addIngredient("minced_dino_meat",{
     broken:"minced_dino_meat"
   });
 
-addIngredient("urchin",{
-    group:"other",
-    color:"#140112",
-    shape:"spike_ball",
+addIngredient("chuck",{
+    type:"beef",
+    shape:"rectangle_round_rough",
+    group:"generic",
     scale:1.0,
-    keywords:"urchin,ouch,spiky,sea",
-    dishName:"sea_urchin",
-    cookColor:"#140112",
-    adj:"urchin",
-    broken:"uni"
+    keywords:"beef,cow,meat,steak",
+    dishName:"beef_chuck",
+    adj:"chuck"
   });
 
-addIngredient("uni",{
-    group:"other",
-    color:"#D6963B",
-    shape:"bean",
-    scale:0.8,
-    keywords:"urchin,sea,uni",
-    dishName:"uni",
-    cookColor:"#BA6E34",
-    adj:"uni",
-    broken:"uni"
+addIngredient("brisket",{
+    type:"beef",
+    shape:"cutlet",
+    color:"#9A2020",
+    group:"generic",
+    scale:1.0,
+    keywords:"beef,cow,meat,steak",
+    dishName:"briskets",
+    adj:"brisket"
   });
