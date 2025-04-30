@@ -24,7 +24,7 @@ addIngredient("minced_dino_meat",{
     broken:"minced_dino_meat"
   });
 
-addIngredient("sea_urchin",{
+addIngredient("urchin",{
     type:"fish",
     group:"other",
     color:"#140112",
