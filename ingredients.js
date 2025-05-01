@@ -428,3 +428,56 @@ addIngredient("lamb_jerky",{
     adj:"lamb_jerky",
     hidden:false
 });
+
+addIngredient("cow_liver",{
+    type:"beef",
+    shape:"bean_l",
+    scale:1.0,
+    keywords:"beef,cow,liver,meat",
+    dishName:"beef_liver",
+    adj:"beef_liver",
+    hidden:false
+});
+
+addIngredient("chicken_liver",{
+    type:"chicken",
+    color:"#9F1A1A",
+    shape:"bean_l",
+    scale:1.0,
+    keywords:"chicken,liver,meat",
+    dishName:"chicken_liver",
+    adj:"chicken_liver",
+    hidden:false
+});
+
+addIngredient("deer_liver",{
+    type:"venison",
+    color:"#7A5147",
+    shape:"bean_l",
+    scale:1.0,
+    keywords:"deer,venison,liver,meat",
+    dishName:"deer_liver",
+    adj:"deer_liver",
+    hidden:false
+});
+
+addIngredient("horse_liver",{
+    type:"horse",
+    color:"#691617",
+    shape:"bean_l",
+    scale:1.0,
+    keywords:"horse,liver,meat",
+    dishName:"horse_liver",
+    adj:"horse_liver",
+    hidden:false
+});
+
+addIngredient("lava_chicken_liver",{
+    type:"lava_chicken",
+    shape:"bean_l",
+    scale:1.0,
+    keywords:"lava,chicken,minecraft,liver,meat",
+    dishName:"lava_chicken_liver",
+    adj:"lava_chicken_liver",
+    hidden:false
+});
